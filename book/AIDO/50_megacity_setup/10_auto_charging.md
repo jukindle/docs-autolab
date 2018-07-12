@@ -1,20 +1,36 @@
 # Auto-charging {#aido-auto-charging}
 
-Duckiebots with a built-in 10400mAh battery are capable of driving for roughly 7 hours. Therefore to create a fully autonomous Duckietown, a charging station is a crucial part. This chapter describes how to setup and operate a charging station.
+Duckiebots with a built-in 10400mAh battery are capable of driving for roughly 7 hours. Therefore to create a fully autonomous Duckietown, a charging station is a crucial part. This chapter describes how to setup and operate a charging area. It is highly recommended to have a 3D-printer available in order to tune the flexibility of some parts - if this is not the case, URLs for ordering the parts are provided.
 
 ## Definitions
 
-### Charging rail tiles
+### Current collector
 
-Charging rail tiles are tiles with brass rails screwed on top.
+The current collector is a flexible shaft mounted on top of a Duckiebot. Its purpose is to make contact with the charging rails.
 
 ### Charging rail
 
-A charging rail is the combination of multiple connected charging rail tiles. The length of a charging rail must be at least one tile. Usually, the lanes in both directions are used as chargers.
+A charging rail is a brass tube mounted over a Duckietown with the help of a wooden structure.
+
+### Wooden structure
+
+The purpose of the wooden structure is to mount the charging rails over the street.
+
+### Charging rail tiles
+
+Charging rail tiles are tiles with charging rails. Duckiebots can charge in both directions. Each charging rail tile has $8$ brass rails.
+
+### Insulator
+
+The insulator connects the wooden structure with the charging rails.
 
 ### Charging module
 
 A charging module describes the combination of a charging rail and all connected straights and curves up to the next intersection.
+
+### Charger
+
+A charger describes one single lane of a charging module.
 
 ### Charging area
 
@@ -24,16 +40,88 @@ A charging area is the combination of multiple charging modules and intersection
 
 The actual Duckietown city and the charging and calibration area are strictly separated by a single road. Every tile which purpose is the servicing of Duckiebots are part of the maintenance area. This includes every intersection and road which guide the Duckiebot from the maintenance entrance to a charging module and back.
 
-## Material
 
-The materials needed for a charging rail which offers 4 charging spots in each direction are listed in the following:
+## Plan your maintenance area
 
-* $4\times1.7m$ TODO brass
+We highly recommend that the maintenance area fulfills the specifications of Duckietown. If needed, U-turns can be used.
+
+Charging modules are scalable structures. Under good light conditions, roughly $3$ Duckiebots fit in one tile. To ensure robustness, multiple charging modules should be used - that way, if a Duckiebot gets stuck for any reason, the affected charging module can be closed while all others can still be used.
+
+### Decide how many Duckiebots need to fit
+
+Charging of a Duckiebot takes roughly the same time as discharging it. However, currently there is no way to park Duckiebots. Therefore it is recommended to be able to fit every Duckiebot inside the charging area.
+
+### Calculate the amount of charging rail tiles
+
+$ ChargingTiles = \frac{Duckiebots}{3}$
+
+
+
+### Plan the charging area
+
+In between an intersection and a charging rail tile, there needs to be at least one straight.
+
+<div figure-id="fig:charging_area_example">
+<img src="images/charging_area_example.png" style="width: 80%"/>
+<figcaption>
+An example charging area which fulfills the specifications. This charging area can fit $3 \times 10 = 30$ Duckiebots.
+</figcaption>
+</div>
+
+The charging area in ([](#fig:charging_area_example)) fulfills the specifications and has four chargers (two per module).
+
+## Material for one charging module
+
+In this list, $X$ will denote the number of charging rail tiles in a charging module. \emph{Reminder}: One charging rail tile can fit $3$ Duckiebots ($1.5$ per lane).
+
+* $8 \times$ $Ø4mm$ diameter brass rod, length $10cm + X \times 66cm$
+* $(X + 1)$ $\times$ wooden structure top pieces TODO
+* $(2 \times (X + 1))$ $\times$ wooden structure side pieces TODO
 * TODO screws
-* TODOtodotodo
+* TODO wires
+* TODO power device
+* $(X + 1)$ $\times$ insulator.stl
+* TODO
+
+## Building a charging module
+
+### Cutting parts for the wooden structure
+
+TODO
+
+### Assemble the wooden structure
+
+TODO
+
+### Drill holes for mounting the insulator
+
+TODO
+
+### Mount the insulator
+
+TODO
+
+### Solder things...
+
+TODO
+
+### Attach to power source
+
+TODO
 
 
-# Puffer
+## Modifications on Duckiebots
+
+In order to let a Duckiebot charge in a charger, additional hardware is needed. This piece is called the current collector.
+
+## Materials for a single current collector
+
+Option 1: 3D printer available
+* $5g$ Material for the 3D printer (cutest color is yellow)
+* $2$
+
+
+# EXAMPLE FOR MD WRITING
 
 One example is the long-running annual Robocup, originally thought for robot soccer (wheeled, quadruped, and biped), and later extended to other tasks (search and rescue, home assistance, etc.). Other impactful competitions are the DARPA Challenges, such as the DARPA Grand Challenges in 2007-8 that rekindled the field of self-driving cars, and the recent DARPA Robotics Challenge for humanoid robots.
 
