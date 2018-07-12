@@ -59,7 +59,7 @@ $ ChargingTiles = \frac{Duckiebots}{3}$
 
 ### Plan the charging area
 
-In between an intersection and a charging rail tile, there needs to be at least one straight.
+**In between an intersection and a charging rail tile, there needs to be at least one straight.**
 
 <div figure-id="fig:charging_area_example">
 <img src="images/charging_area_example.png" style="width: 80%"/>
@@ -116,7 +116,7 @@ In order to let a Duckiebot charge in a charger, additional hardware is needed. 
 
 ## Materials for a single current collector
 
-Option 1: 3D printer available
+**Option 1:** 3D printer available
 
 * $5g$ Material for the 3D printer (cutest color is yellow)
 * $2 \times$ TODO brass rails
@@ -124,7 +124,7 @@ Option 1: 3D printer available
 * Additional board TODO
 * TODO lasercutted board
 
-Option 2: no 3D printer available
+**Option 2:** no 3D printer available
 
 * Order TODO stl from Shapeways
 * $2 \times$ TODO brass rails
@@ -135,21 +135,73 @@ Option 2: no 3D printer available
 
 ## Build a charging capable Duckiebot
 
-### First step
+### Print / Order the current collector
+
+If a 3D printer is available, then [just follow these instructions](https://www.thingiverse.com/thing:2996297#instructions).
+
+If no 3D printer is available, then order the printed part from [TODO this site](https://todo.com).
+
+
+### Mount the current collector
 
 TODO
 
-### Second step
+### Drill holes in the contact rods
 
-And so on...
+TODO
+
+### Solder wires
+
+TODO
+
+### Test your setup
+
+TODO
 
 
 ## Build your maintenance area
 
-TODO
+Next, please build the whole maintenance area.
 
-## Modify map
-TODO
+###Put together all tiles
+
+Respect the constraints of Duckietown.
+
+###Add April tags for every intersection
+
+**Note down** all the **tag IDs** and their **positions** in your maintenance area - you will need them later on to define your map in the software.
+
+###Add a red line after each charger
+
+Directly at the beginning of the next tile after a charger, add a red line. This red line is used to determine whether a Duckiebot is the first in a charger or not.
+
+## Software: Modify map
+
+The branch used for Autolabs is called megacity.
+
+Checkout the branch megacity and build the catkin workspace
+
+    git checkout megacity
+    git pull
+    ./dependencies_for_duckiebot.sh
+    ./dependencies_common.sh
+    source environment.sh
+    make build-catkin
+
+
+Go to the configuration file folder for the maintenance node
+
+    cd catkin_ws/src/00-infrastructure/duckietown/config/baseline/maintenance_control/maintenance_control_node
+
+and copy the default.yaml file for your city
+
+    cp default.yaml <your_city_name>.yaml
+
+Edit the newly created file.
+
+The parameters in the config file are dictionaries - each key (i.e. '150') stands for an april tag ID and maps to either a single direction (i.e. 1) or to multiple directions, stored in a list (i.e. [0,1,2]). The directions, stored as integers, map as follows:
+
+[0, 1, 2] == [LEFT, STRAIGHT, RIGHT].
 
 # EXAMPLE FOR MD WRITING
 
