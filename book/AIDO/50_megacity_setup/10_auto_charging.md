@@ -203,6 +203,71 @@ The parameters in the config file are dictionaries - each key (i.e. '150') stand
 
 [0, 1, 2] == [LEFT, STRAIGHT, RIGHT].
 
+## Add your own paths
+
+### path_in
+
+The "path_in" parameter of a charger should map traffic sign april tag IDs to a single turn type, which in sum guide the Duckiebot to the charger. In ([](#fig:path_to_charger2)) an example is given. The path_in of charger 2 would then be
+
+    path_in: {'261': 2, '240': 0}
+
+
+<div figure-id="fig:path_to_charger2">
+<img src="images/path_to_charger2.png" style="width: 80%"/>
+<figcaption>
+An example path from maintenance entrance to charger 2.
+</figcaption>
+</div>
+
+### path_calib
+
+In the case that a calibration area is used, the dictionary "path_calib" guides the Duckiebot from a charger exit to the calibration area. In ([](#fig:charger2_to_calib)) an example is given. The path_calib of charger 2 would then be
+
+    path_calib: {'236': 0, '153': 0, '243': 2}
+
+<div figure-id="fig:charger2_to_calib">
+<img src="images/charger2_to_calib.png" style="width: 80%"/>
+<figcaption>
+An example path from charger 2 to calibration area.
+</figcaption>
+</div>
+
+### path_to_city
+
+The dictionary "path_to_city" guides a Duckiebot from every possible leaving position (i.e. charger exit, calibration exit) back to the city. In ([](#fig:path_to_city)), all paths are plotted for an example maintenance area (without a calibration area).
+
+<div figure-id="fig:path_to_city">
+<img src="images/path_to_city.png" style="width: 80%"/>
+<figcaption>
+All possible exit paths from an example maintenance area (without calibration area).
+</figcaption>
+</div>
+
+### charging_stations: entrances, exits
+
+The dictionary "entrances" and "exits" in the charging_stations parameter contains every entrance / exit to charging stations. This information is needed in the code to determine when a Duckiebot enters or leaves a charger.
+
+### maintenance_entrance / maintenance_exit
+
+This dictionaries define which april tag IDs correspond to the entrance / exit of the maintenance area. This information is needed to detect when a Duckiebot enters or leaves the maintenance area.
+
+### calibration_station: entrances, exits
+
+If a calibration area is used, these parameters define the entrance / exit of it.
+
+## Launch your script
+
+As soon as you have created your own configuration file described above, you are ready to test your setup.
+
+Launch the final script inside the root folder of Duckietown
+
+    make megacity-<city_name>
+
+This will take some time.
+
+TODO: Tell how to debug etc.
+
+
 # EXAMPLE FOR MD WRITING
 
 One example is the long-running annual Robocup, originally thought for robot soccer (wheeled, quadruped, and biped), and later extended to other tasks (search and rescue, home assistance, etc.). Other impactful competitions are the DARPA Challenges, such as the DARPA Grand Challenges in 2007-8 that rekindled the field of self-driving cars, and the recent DARPA Robotics Challenge for humanoid robots.
