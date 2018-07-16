@@ -10,7 +10,7 @@ In this list, $X$ will denote the number of charging rail tiles in a charging mo
 * TODO screws
 * TODO wires
 * $\lceil {\frac {X}{4}}\rceil \times $ power supply which enables you to drive 5V and 30Amps
-* $2 \times (X + 1)$ $\times$ insulator.stl
+* $2 \times (X + 1)$ $\times$ insulator - [self-print here](https://www.thingiverse.com/thing:2996297/files) or [order here](https://www.shapeways.com/product/QN3HP9EAH/megacity-insulator)
 * TODO
 
 ## Building a charging module
