@@ -82,6 +82,13 @@ How the screw head is hidden.
 TODO give instructions on howto solder it.
 
 ### Attach to power source
+For being able to power the Duckiebots we are using a power supply rated at 5V with 30Amps. You can see the connections of the power supply in ([](#fig:powersupply)).
+<div figure-id="fig:powersupply">
+<img src="images/powersupply.jpg" style="width: 100%"/>
+<figcaption>
+The connected power supply.
+</figcaption>
+</div>
 
 TODO add picture of cables and polarity graph.
 

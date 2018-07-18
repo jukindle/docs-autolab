@@ -15,6 +15,12 @@ A Duckiebot with a current collector.
 
 A charging rail is a brass tube mounted over a Duckietown with the help of high voltage poles.
 
+<div figure-id="fig:brasstube">
+<img src="images/brasstube.jpg" style="width: 80%"/>
+<figcaption>
+A brasstube.
+</figcaption>
+</div>
 TODO add picture of final version
 
 ## High voltage pole
