@@ -1,1 +1,1 @@
-cmd: make compile-docker
+cmd: make clean; make compile-docker

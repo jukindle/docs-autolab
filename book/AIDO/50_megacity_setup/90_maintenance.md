@@ -1,4 +1,4 @@
-# Maintenance of the charging area
+# Maintenance of the charging area {#autocharging-maintenance status=beta}
 
 The Tram charging solution needs to be maintained to ensure a robust charging procedure.
 

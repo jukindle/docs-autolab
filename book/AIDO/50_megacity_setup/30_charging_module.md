@@ -1,4 +1,4 @@
-# Charging module
+# Charging module {#autocharging-charging-module status=draft}
 
 ## Material for one charging module
 
@@ -79,8 +79,24 @@ How the screw head is hidden.
 
 ### Solder things...
 
-TODO
+TODO give instructions on howto solder it.
 
 ### Attach to power source
 
-TODO
+TODO add picture of cables and polarity graph.
+
+### Fix the high voltage poles to tiles
+
+Use double-sided tape to mount the high voltage poles to the tiles.
+
+TODO add picture
+
+### Bend brass rails and mount them
+
+Bend the charging rails 5cm on both sides (in the same direction) to ensure that Duckiebots do not get stuck when arriving at the charging rail tiles.
+
+TODO add picture
+
+Then, clip the brass rails into the insulators.
+
+TODO add picture

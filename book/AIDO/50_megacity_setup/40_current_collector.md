@@ -1,4 +1,4 @@
-# Current collector
+# Current collector {#autocharging-current-collector status=draft}
 
 In order to let a Duckiebot charge in a charger, additional hardware is needed. This piece is called the current collector.
 
@@ -29,9 +29,13 @@ If **no 3D printer is available**, then order the printed part from [this site](
 
 ### Drill holes in the contact rods
 
-Drill a 1mm in diameter and 3mm deep hole inside the brass pieces, centered. This ensures a better contact when soldering the cables to the brass.
+Drill a 1mm in diameter and 3mm deep hole inside the brass pieces, centered. This ensures a better contact when soldering the cables to the brass. See ([](#fig:hole_in_brass)).
 
-TODO add picture.
+<div figure-id="fig:hole_in_brass">
+<img src="images/hole_in_brass.jpg" style="width: 80%"/>
+<figcaption>
+A 1mm hole, 3mm deep, drilled into a brass pole.</figcaption>
+</div>
 
 ### Prepare the current collector soldering
 
@@ -134,4 +138,4 @@ The resulting charging-capable Duckiebot.
 
 ### Test your setup
 
-TODO write something
+Connect the brass pieces to a 5V voltage source and check if the battery signals that it is charging.

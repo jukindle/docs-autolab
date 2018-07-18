@@ -1,4 +1,4 @@
-# Building a maintenance area
+# Building a maintenance area {#autocharging-maintenance-area status=beta}
 
 Next, please build the whole maintenance area.
 

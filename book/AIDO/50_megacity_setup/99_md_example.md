@@ -1,6 +1,4 @@
-
-
-# EXAMPLE FOR MD WRITING
+# EXAMPLE FOR MD WRITING {#autocharging-example-md status=draft}
 
 One example is the long-running annual Robocup, originally thought for robot soccer (wheeled, quadruped, and biped), and later extended to other tasks (search and rescue, home assistance, etc.). Other impactful competitions are the DARPA Challenges, such as the DARPA Grand Challenges in 2007-8 that rekindled the field of self-driving cars, and the recent DARPA Robotics Challenge for humanoid robots.
 
