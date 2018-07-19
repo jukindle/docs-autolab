@@ -27,14 +27,15 @@ If **no 3D printer is available**, then order the printed part from [this site](
 
 
 
-### Drill holes in the contact rods
+### Put together three laboratory plugs
 
-Drill a 1mm in diameter and 3mm deep hole inside the brass pieces, centered. This ensures a better contact when soldering the cables to the brass. See ([](#fig:hole_in_brass)).
+Take three laboratory plugs and put them together as seen in ([](#fig:lp_assembly)).
 
-<div figure-id="fig:hole_in_brass">
-<img src="images/hole_in_brass.jpg" style="width: 80%"/>
+<div figure-id="fig:lp_assembly">
+<img src="images/lp_assembly.jpg" style="width: 80%"/>
 <figcaption>
-A 1mm hole, 3mm deep, drilled into a brass pole.</figcaption>
+Three laboratory plugs put together.
+</figcaption>
 </div>
 
 ### Prepare the current collector soldering
@@ -50,12 +51,12 @@ Neccessary parts for the current collector soldering
 
 ### Solder the wires
 
-Solder the wires to the brass pieces as seen in ([](#fig:soldered_brass)).
+Solder the wires to the laboratory plugs as seen in ([](#fig:soldered_lp)).
 
-<div figure-id="fig:soldered_brass">
-<img src="images/soldered_brass.jpg" style="width: 80%"/>
+<div figure-id="fig:soldered_lp">
+<img src="images/soldered_lp.jpg" style="width: 80%"/>
 <figcaption>
-A wire soldered to a brass piece.
+A wire soldered to the laboratory plugs.
 </figcaption>
 </div>
 
@@ -68,11 +69,9 @@ A current collector during the soldering process.
 </figcaption>
 </div>
 
-### Glue the brass pieces
+### Optional: Glue the laboratory plugs
 
-Glue the brass pieces such that they are hold in place in the 3D printed part.
-
-TODO add picture
+If for any reason the laboratory plugs do not fit tightly in the 3D printed part, glue them.
 
 ### Prepare the assembly
 
