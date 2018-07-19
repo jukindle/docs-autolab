@@ -18,7 +18,7 @@ In this list, $X$ will denote the number of charging rail tiles in a charging mo
 
 ### Assemble the wooden structure
 
-Assemble the wooden structure as in ([](#fig:assembled_wooden_struc)). This part may differ from our reference part. The important and neccessary specifications are: (i) the structure must be larger than one tile such that a road (with margins on both sides) may fit underneath and (ii) the space between the tile and the bottom part of the crossbar must be exactly 19cm.
+Assemble the wooden structure as in ([](#fig:assembled_wooden_struc)). This part may differ from our reference part. The important and neccessary specifications are: (i) the structure must be larger than one tile such that a road (with margins on both sides) may fit underneath and (ii) the space between the tile and the bottom part of the crossbar must be exactly 21cm.
 
 <div figure-id="fig:assembled_wooden_struc">
 <img src="images/assembled_wooden_struc.jpg" style="width: 80%"/>
