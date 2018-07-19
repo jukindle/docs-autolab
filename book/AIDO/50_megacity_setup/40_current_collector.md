@@ -4,12 +4,12 @@ In order to let a Duckiebot charge in a charger, additional hardware is needed. 
 
 ## Materials for a single current collector
 
+* $6 \times$ [laboratory plug CAT I Ø4mm](https://www.distrelec.ch/en/p/14048007)
+* $2 \times$ 1mm cable, length 30cm
+* Robotarium add-on board
 * If printer available: $5g$ Material for the 3D printer (cutest color is yellow)
-* $2 \times$ TODO brass rails
-* Cables.... TODO
-* Additional board TODO
-* TODO lasercutted board
 * If laser cutter available: $110 \times 110 \times 3mm$ acrylic glass
+* Soldering iron and solder
 
 ## Build a charging capable Duckiebot
 
@@ -24,8 +24,6 @@ If **no laser cutter is available**, then order [this file](https://www.thingive
 If **a 3D printer is available**, then [just follow these instructions](https://www.thingiverse.com/thing:2996297#instructions).
 
 If **no 3D printer is available**, then order the printed part from [this site](https://www.shapeways.com/product/G5UASUBU4/megacity-current-collector-standard-version).
-
-
 
 ### Put together three laboratory plugs
 
