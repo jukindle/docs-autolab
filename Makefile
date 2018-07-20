@@ -5,5 +5,8 @@ IMAGE:=andreacensi/duckuments:devel
 
 all:
 	cat README.md
+	
+compile:
+	make clean; make compile-docker
 
 include resources/makefiles/setup.Makefile
