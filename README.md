@@ -16,8 +16,8 @@ As soon as this is done, change directory into the cloned fork and do
     
 You're ready to go!
 
-# Compiling after doing changed
+# Compiling changes
 
-Compile new changes by executing
+Compile changes by executing
 
     make compile
