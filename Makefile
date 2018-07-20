@@ -5,8 +5,8 @@ IMAGE:=andreacensi/duckuments:devel
 
 all:
 	cat README.md
-	
+
 compile:
-	make clean; make compile-docker
+	make clean; make compile-docker; echo;echo;echo;echo;echo;echo;echo; echo "The HTML files can be found under duckuments-dist/autolab/out"; echo; echo; echo
 
 include resources/makefiles/setup.Makefile
