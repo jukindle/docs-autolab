@@ -21,7 +21,6 @@ A charging rail is a brass tube mounted over a Duckietown with the help of high 
 A brasstube.
 </figcaption>
 </div>
-TODO add picture of final version
 
 ## High voltage pole
 

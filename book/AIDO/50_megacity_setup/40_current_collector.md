@@ -1,4 +1,4 @@
-# Current collector {#autocharging-current-collector status=draft}
+# Current collector {#autocharging-current-collector status=beta}
 
 In order to let a Duckiebot charge in a charger, additional hardware is needed. This piece is called the current collector.
 
@@ -8,12 +8,14 @@ In order to let a Duckiebot charge in a charger, additional hardware is needed. 
 * $2 \times$ 1mm cable, length 30cm
 * Robotarium add-on board
 * If printer available: $5g$ Material for the 3D printer (cutest color is yellow)
-* If laser cutter available: $110 \times 110 \times 3mm$ acrylic glass
+* April tag plate
+* $16 \times$ plastic spacers $M2.5 \times 12mm$
+* $7 \times$ screw $M2.5 \times 10mm$ and nut $M2.5$
 * Soldering iron and solder
 
 ## Build a charging capable Duckiebot
 
-### Print / Order the april tag plate
+### Cut / Order the april tag plate
 
 If **a laser cutter is available**, then laser cut [this file](https://www.thingiverse.com/download:5140588) with the dimensions $110 \times 110mm$ (you probably need to scale it, depending on your programs units).
 

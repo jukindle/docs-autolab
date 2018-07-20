@@ -4,7 +4,7 @@ The Tram charging solution needs to be maintained to ensure a robust charging pr
 
 ## Clean the contacts
 
-Both the brass rails from the charging rail tiles as well as those mounted to the current collector start to oxidate over time. Clean both regularly by using either acetone, sandpaper or both together.
+The brass rails from the charging rail tiles start to oxidate over time. Clean them regularly by using either acetone, sandpaper or both together.
 
 Note: Do not touch the brass after cleaning it - this will ensure a slower oxidation process and require you to clean the contacts less.
 

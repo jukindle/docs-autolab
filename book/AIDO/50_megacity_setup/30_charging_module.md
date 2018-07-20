@@ -4,14 +4,18 @@
 
 In this list, $X$ will denote the number of charging rail tiles in a charging module. \emph{Reminder}: One charging rail tile can fit $3$ Duckiebots ($1.5$ per lane).
 
-* $8 \times$ $Ø4mm$ diameter brass rod, length $10cm + X \times 59cm$
-* $(X + 1)$ $\times$ wooden structure top pieces TODO
-* $(2 \times (X + 1))$ $\times$ wooden structure side pieces TODO
-* TODO screws
-* TODO wires
+* $8 \times$ brass rod $Ø4mm$, length ($10cm + X \times 59cm$)
+* $(X + 1)$ $\times$ wooden structure top piece ($2 \times 2 \times 90cm$)
+* $(2 \times (X + 1))$ $\times$ wooden structure side piece ($2 \times 2 \times 20cm$)
+* $(2 \times (X + 1))$ $\times$ wooden structure floor piece ($10 \times 10 \times 1cm$)
+* $(4 \times (X + 1))$ Woodscrew for high voltage pole, i.e. screw $Ø3.2 \times 40mm$
+* $(8 \times (X + 1))$ screw $M3 \times 30mm$ and $M3$ nuts
+* $(2 \times (X + 1))$ $\times$ insulator - [self-print here](https://www.thingiverse.com/thing:2996297/files) or [order here](https://www.shapeways.com/product/QN3HP9EAH/megacity-insulator)
+* Drill $Ø4mm$ and $Ø6mm$
 * $\lceil {\frac {X}{4}}\rceil \times $ power supply which enables you to drive 5V and 30Amps
-* $2 \times (X + 1)$ $\times$ insulator - [self-print here](https://www.thingiverse.com/thing:2996297/files) or [order here](https://www.shapeways.com/product/QN3HP9EAH/megacity-insulator)
-* TODO
+* TODO wires
+* TODO lab connector
+
 
 ## Building a charging module
 
@@ -79,18 +83,26 @@ How the screw head is hidden.
 
 ### Solder things...
 
-TODO give instructions on howto solder it.
+TODO howto solder lab plugs and attach them
 
 ### Attach to power source
-For being able to power the Duckiebots we are using a power supply rated at 5V with 30Amps. You can see the connections of the power supply in ([](#fig:powersupply)).
+For powering the Duckiebots we use a power supply rated at 5V with 30Amps max. You can see the connections of the power supply in ([](#fig:powersupply)).
 <div figure-id="fig:powersupply">
-<img src="images/powersupply.jpg" style="width: 100%"/>
+<img src="images/powersupply.jpg" style="width: 80%"/>
 <figcaption>
 The connected power supply.
 </figcaption>
 </div>
 
-TODO add picture of cables and polarity graph.
+The cables of the brass rods must be polarized as seen in ([](#fig:polarity_graph)).
+
+<div figure-id="fig:polarity_graph">
+<img src="images/polarity_graph.png" style="width: 100%"/>
+<figcaption>
+The polarities of the brass rods.
+</figcaption>
+</div>
+
 
 ### Fix the high voltage poles to tiles
 
