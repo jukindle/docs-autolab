@@ -6,6 +6,9 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update;	apt-cache search docker-ce; sudo apt-get install docker-ce
 make install-docker-ubuntu16
 
+sudo sed -i '/-v $(gitdir_super):$(gitdir_super)/d' resources/makefiles/setup.Makefile
+sudo sed -i '/run-book-native.sh/d' resources/makefiles/setup.Makefile
+
 clear
 
 echo "Please sign out and sign in now in order to update the system groups. Then, you should be ready to compile with 'make compile'!"
